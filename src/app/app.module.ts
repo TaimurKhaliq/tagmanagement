@@ -8,6 +8,8 @@ import { MatButtonModule, MatCheckboxModule } from '@angular/material';
 import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material';
 import { MatToolbarModule } from '@angular/material';
+import { MatCardModule } from '@angular/material';
+import { MatRadioModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { MatToolbarModule } from '@angular/material';
     MatTableModule,
     MatFormFieldModule,
     MatInputModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
